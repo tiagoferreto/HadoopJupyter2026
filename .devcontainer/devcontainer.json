@@ -1,14 +1,12 @@
 {
-  "name": "Python with Jupyter and Docker-in-Docker",
+  "name": "Python with Jupyter and Docker",
+
   "image": "mcr.microsoft.com/devcontainers/python:3.14-trixie",
 
   "features": {
-    "ghcr.io/devcontainers/features/docker-in-docker:4": {
+    "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {
       "moby": false,
       "dockerDashComposeVersion": "v2"
-    },
-    "ghcr.io/devcontainers/features/python:1": {
-      "version": "latest"
     }
   },
 
